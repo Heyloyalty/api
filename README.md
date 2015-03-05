@@ -6,6 +6,6 @@ We are using the <a href="http://guzzle.readthedocs.org/en/latest/">guzzle http 
 
 ## PHP examples
 
- * <a href="https://github.com/HeyLoyalty/api/blob/master/update-custom-field-last-login-on-member.md">Update custom field "last login" on member</a>
+<a href="https://github.com/HeyLoyalty/api/blob/master/update-custom-field-last-login-on-member.md">Update custom field "last login" on member</a>
 
 
