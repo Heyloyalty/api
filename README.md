@@ -9,8 +9,8 @@ We are using the <a href="http://guzzle.readthedocs.org/en/latest/">guzzle http 
 #### Update custom field last login on member
 
 In this example we are showing how you can update your own "last login" custom date field, if you need to keep track of things.<br/>
-Remember you can set the date format when you create or edit a list, if you what to set hours, minutes and seconds<br/> just set the format as YYYY-mm-dd H.i:s
-This wil give you a format of 1970-12-31 12:00:00
+Remember you can set the date format when you create or edit a list, if you what to set hours, minutes and seconds, just set the format as YYYY-mm-dd H.i:s
+this wil give you a format of 1970-12-31 12:00:00
 
 ```
  <?php
