@@ -6,7 +6,7 @@ We are using the <a href="http://guzzle.readthedocs.org/en/latest/">guzzle http 
 
 ## PHP examples
 
-### Update custom field on member
+#### Update custom field on member
 
 ´´´ <?php
         //TODO
