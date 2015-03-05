@@ -1,4 +1,4 @@
-# Heyloyalty api v1
+# Heyloyalty api v1 code examples
 
 <a href="http://heyloyalty.com/">Heyloyalty</a> open api for communicating with the platform. 
 
