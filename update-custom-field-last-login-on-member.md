@@ -19,11 +19,11 @@ this wil give you a format of 1970-12-31 12:00:00
         
         $requestSignature = base64_encode(hash_hmac('sha256', $requestTimestamp, API_SECRET));
         
+        $request = $client->put($host.'/loyalty/v1/lists/1/members/ad7b7fb6-5f0b-457a-82f9-0ea186ead40e/?email=johndoe@mail.com&firstname=John&lastlogin=1970-01-01');
+        
         $request->setAuth(API_KEY, $requestSignature);
         
         $request->addHeader('X-Request-Timestamp', $requestTimestamp);
-        
-        $request = $client->put($host.'/loyalty/v1/lists/1/members/ad7b7fb6-5f0b-457a-82f9-0ea186ead40e/?email=johndoe@mail.com&firstname=John&lastlogin=1970-01-01');
         
         $response = $request->send()->json();
         
