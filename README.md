@@ -8,4 +8,8 @@ We are using the <a href="http://guzzle.readthedocs.org/en/latest/">guzzle http 
 
 <a href="https://github.com/HeyLoyalty/api/blob/master/update-custom-field-last-login-on-member.md">Update custom field "last login" on member</a>
 
+## Php client
+
+One of our developers have made a <a href="https://github.com/SkouRene/HL-phpclient">phpclient</a>
+
 
